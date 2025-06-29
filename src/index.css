@@ -1,2 +1,65 @@
 @import "tailwindcss";
 
+* {
+  @apply m-0 p-0 box-border;
+
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.hash-span {
+    @apply -mt-[100px] pb-[100px] block;
+}
+
+.paddingX {
+  @apply sm:px-16 px-6;
+}
+
+.paddingY {
+  @apply sm:py-16 py-6;
+}
+
+.padding {
+  @apply sm:px-16 px-6 sm:py-16 py-10;
+}
+
+.heroHeadText {
+    @apply font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2;
+}
+
+.heroSubText {
+    @apply text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px];
+}
+
+.sectionHeadText {
+    @apply text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px];
+}
+
+.sectionSubText {
+    @apply sm:text-[18px] text-[14px] uppercase text-secondary tracking-wider mt-2;
+}
+
+.backgroundImage {
+    background-image: url('/src/assets/herobg.png');
+}
+
+.boxShadow {
+    box-shadow: 0px 35px 120px -15px #211e35;
+}
+
+@theme {
+    --color-primary: #050816;
+    --color-secondary: #aaa6c3;
+    --color-tertiary: #151030;
+    --color-black-100: #100d25,
+    --color-black-200: #090325;
+    --color-white-100: #f3f3f3;
+
+  }
+
+@theme {
+    --breakpoint-xs: "450px";
+}
+
+
