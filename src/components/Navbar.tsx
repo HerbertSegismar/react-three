@@ -6,6 +6,8 @@ import { navLinks } from '../constants';
 const Navbar = () => {
 
   const [active, setActive] = useState('');
+  const [toggle, setToggle] = useState(false);
+
   return (
     <nav className="paddingX w-full flex items-center py-5 fixed top-0 z-20 bg-primary">
       <div className="w-full h-24 flex justify-between items-center max-w-7xl mx-auto">
