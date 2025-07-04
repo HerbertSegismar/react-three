@@ -1,12 +1,12 @@
 @import "tailwindcss";
 * {
-  @apply m-0 p-0 box-border;
-
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
 }
-
 
 .hash-span {
     @apply -mt-[100px] pb-[100px] block;
