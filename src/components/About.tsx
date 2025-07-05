@@ -8,7 +8,7 @@ const ServiceCard = ({ title, icon }: { title: string; icon: string }) => {
   return (
     <Tilt
       className="xs:w-[250px] w-full flex justify-around flex-1"
-      style={{ marginTop: 40 }}
+      style={{ marginTop: 45 }}
     >
       <motion.div
         variants={cardAnimation}
