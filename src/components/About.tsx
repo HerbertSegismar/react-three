@@ -12,9 +12,9 @@ const ServiceCard = ({ title, icon }: { title: string; icon: string }) => {
     >
       <motion.div
         variants={cardAnimation}
-        className="h-[282px] w-[386px] green-pink-gradient rounded-[20px] p-[1px] flex items-center justify-center"
+        className="h-[282px] w-[363px] md:w-[386px] green-pink-gradient rounded-[20px] p-[1px] flex items-center justify-center"
       >
-        <div className="w-96 violet-gradient p-[1px] rounded-[20px] shadow-card">
+        <div className="w-90 md:w-96 violet-gradient p-[1px] rounded-[20px] shadow-card">
           <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
             <motion.img
               src={icon}
