@@ -29,37 +29,39 @@ const Experience = () => {
               x: [-screen.width, 0],
               transition: { duration: 5, ease: "easeInOut" },
             }}
-            className="flex items-center justify-around gap-10"
+            className="flex items-center justify-around gap-4 w-full 2xl:w-[85vw] mx-auto"
             key={index}
           >
             <div>
-              <div className="border-4 border-slate-500 rounded-full">
+              <div className="border-4 border-slate-500 rounded-full w-24 2xl:w-32">
                 <img
-                  width="100vw"
                   src={experience.icon}
                   alt={experience.company_name}
-                  className="border-8 rounded-full border-slate-800 bg-slate-800"
+                  className="border-8 rounded-full border-slate-800 bg-slate-800 size-full"
                 />
               </div>
             </div>
             <div
-              className="bg-slate-800 h-40 flex flex-1 gap-4 items-center rounded-lg border-b-4 border-slate-500"
+              className="grid grid-cols-7 bg-slate-800 h-60 gap-4 items-center rounded-lg border-b-4 border-slate-500"
               style={{ marginBottom: 20 }}
             >
-              <div className='flex flex-col items-center w-62'>
+              <div className="w-62 2xl:w-96 col-span-2 lg:border-r-2 border-white">
                 <h3
-                  className="text-white text-xl font-bold text-left"
-                  style={{ marginBottom: 10, marginLeft: 30 }}
+                  className="text-white text-xl font-bold text-left 2xl:text-2xl"
+                  style={{ marginBottom: 10, marginLeft: 25 }}
                 >
                   {experience.title}
                 </h3>
-                <h4 className="text-xs text-center">{experience.date}</h4>
+                <h4 className="text-xs" style={{ marginLeft: 25 }}>
+                  {experience.date}
+                </h4>
               </div>
-              <h2
-                className="text-sm text-left text-blue-300"
+              <div
+                className="hidden lg:block text-sm 2xl:text-lg text-blue-300 col-span-5"
+                style={{ marginLeft: 35, marginRight: 25 }}
               >
-                {experience.points}
-              </h2>
+                <h2>{experience.points}</h2>
+              </div>
             </div>
           </motion.div>
         ))}

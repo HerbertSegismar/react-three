@@ -135,10 +135,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mobile application development using React Native and other related technologies.",
+      "Responsive design and cross-platform compatibility.",
+      "Interactive user interface development.",
+      "Crafting innovative and engaging user experiences.",
     ],
   },
   {
@@ -148,10 +148,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Web application development using React.js and other related technologies.",
+      "Curated and optimized user interfaces.",
+      "Implemented responsive design and cross-browser compatibility.",
+      "Collaborated with cross-functional teams to deliver high-quality products.",
     ],
   },
   {
@@ -161,10 +161,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Backend development using Node.js and other related technologies.",
+      "Database management and optimization.",
+      "Implemented responsive design and cross-browser compatibility.",
+      "Collaborated with cross-functional teams to deliver high-quality products.", 
     ],
   },
 ];
