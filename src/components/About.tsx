@@ -43,17 +43,17 @@ const About = () => {
       <div id="about">
         <motion.p
           className="sectionSubText"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.4, duration: 1 }}
         >
           Introduction
         </motion.p>
         <motion.h2
           className="sectionHeadText"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.6, duration: 5 }}
         >
           Overview.
         </motion.h2>
@@ -63,7 +63,7 @@ const About = () => {
         className="mt-4 text-secondary text-lg max-w-3xl leading-7"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
+        transition={{ delay: 0.9, duration: 7 }}
       >
         I'm a full-stack developer with experience in React, Next.js, and
         Three.js. I'm also an avid learner, always seeking out new technologies
@@ -75,7 +75,7 @@ const About = () => {
         variants={container}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, margin: "-50px 0px -100px 0px" }} // Fine-tuned trigger area
+        viewport={{ once: true, margin: "-50px 0px -100px 0px" }}
       >
         {services.map((service, index) => (
           <motion.div key={`service-${index}`} variants={cardAnimation}>

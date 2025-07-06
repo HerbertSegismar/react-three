@@ -14,6 +14,7 @@
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.4",
     "@tailwindcss/vite": "^4.1.11",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "maath": "^0.10.8",
     "motion": "^12.19.2",
     "react": "^19.1.0",

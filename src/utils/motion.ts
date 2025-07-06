@@ -1,10 +1,11 @@
+
 // Stagger animation configuration
 const container = {
-  hidden: { opacity: 0 },
+  hidden: { opacity: 0.5 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2, // Increased stagger delay for more noticeable sequence
+      staggerChildren: 0.2,
       delayChildren: 0.3,
     },
   },
@@ -12,20 +13,18 @@ const container = {
 
 const cardAnimation = {
   hidden: {
-    opacity: 0,
-    y: 20, // Changed from x to y for vertical entry
-    scale: 0.95,
+    x: -screen.width,
   },
   visible: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
+    x: 0,
     transition: {
       type: "spring" as const,
-      damping: 10,
-      stiffness: 100,
+      damping: 5,
+      stiffness: 10,
+      duration: 500
     },
   },
 };
+
 
 export { container, cardAnimation };
