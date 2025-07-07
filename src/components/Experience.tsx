@@ -1,7 +1,6 @@
 import 'react-vertical-timeline-component/style.min.css'
 import {motion} from 'motion/react'
 import {experiences} from '../constants'
-import { exp } from 'three/tsl';
 
 const Experience = () => {
   return (
